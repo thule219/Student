@@ -11,6 +11,7 @@
         android:layout_width="352dp"
         android:layout_height="56dp"
         android:ems="10"
+        android:background="@drawable/custom_input"
         android:hint="Type student's name"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,8 +23,8 @@
 
     <Button
         android:id="@+id/btnSave"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="251dp"
+        android:layout_height="51dp"
         android:text="Save"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
