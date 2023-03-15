@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        //view
 
         //add activity
         btnAdd.setOnClickListener {
@@ -35,9 +34,6 @@ class MainActivity : AppCompatActivity() {
             finish()
         }
 
-//        btnEdit.setOnClickListener{
-//
-//        }
         //display in recycler view
 
         studentDB = StudentRoomDatabase.getDatabase(this) // Khởi tạo database để dùng các method
@@ -65,14 +61,4 @@ class MainActivity : AppCompatActivity() {
         })
     }
 
-    // hihihi đc rồi  :))))hay rứa quá, hay chửi khùng quá, núa chỗ mô hok hiểu
-    // Giải thích lun 1 thể, đọc code đi coa thử, t coi m code nãy giờ mà, ko hiểu t nói lâu gòi
-
-    private  fun deleteStudent() {
-        GlobalScope.launch {
-            val student = studentListAdapter
-//            studentDB?.studentDao()?.deleteStudent(student)
-        }
-
-    }
 }
